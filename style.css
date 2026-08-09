@@ -1909,7 +1909,6 @@ main{
     display: block;
 }
 
-/* Mobile */
 @media (max-width: 768px) {
     .logo img {
         width: 32px;
@@ -1920,4 +1919,3 @@ main{
         gap: 7px;
     }
 }
-
