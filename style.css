@@ -1895,3 +1895,29 @@ main{
 
 }
 
+logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 42px;
+    height: 42px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .logo img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .logo {
+        gap: 7px;
+    }
+}
+
